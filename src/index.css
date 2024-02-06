@@ -14,12 +14,9 @@
 }
 
 @font-face {
-  /* font-family: Metropolis;
-  src: local("../assets/fonts/metropolis.regular.otfs");
-  src: local("./metropolis.regular.otf"); */
-
   font-family: "MyFont";
-  src: local("MyFont"), url(./src/metropolis.regular.otf) format("otf");
+  src: local("MyFont"),
+    url(./src/assets/fonts/metropolis.regular.otf) format("otf");
 }
 
 a {

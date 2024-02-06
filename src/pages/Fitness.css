@@ -59,14 +59,11 @@
   justify-content: space-between;
   align-items: center;
   gap: 10px;
-  /* background-color: red; */
 }
-
 .device {
   background: #ff6020;
   border-radius: 30px;
   width: fit-content;
-  /* padding: 0px 30px; */
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 30px;
   height: 60px;
@@ -85,7 +82,6 @@
   padding: 0;
   margin: 0;
   color: yellow;
-
   font-family: "Metropolis";
   font-style: normal;
   font-weight: 700;
@@ -93,8 +89,6 @@
   line-height: 100%;
   text-align: center;
   text-transform: capitalize;
-
-  color: #ffffff;
 }
 
 .statistic {
@@ -226,9 +220,6 @@
 }
 
 .watchImage {
-  position: absolute;
-  /* Screenshot 2024-02-05 200304-Photoroom 1 */
-
   position: absolute;
   width: 322px;
   height: 322px;
@@ -384,9 +375,7 @@
 }
 
 .nameInput {
-  /* width: 388px; */
   height: 50px;
-  /* width: var(-30px); */
   border: none;
   background: #ffffff;
   border-radius: 30px;
@@ -396,7 +385,6 @@
   font-style: normal;
   font-weight: 800;
   font-size: 14px;
-  /* opacity: 0.3; */
   text-transform: capitalize;
 }
 
@@ -406,17 +394,14 @@ input::placeholder {
   font-weight: 800;
   font-size: 14px;
   line-height: 100%;
-
   text-transform: capitalize;
   color: #2f2f2f;
-
   opacity: 0.3;
 }
 
 .ageContainer {
   display: flex;
   gap: 10px;
-  /* flex-direction: column; */
 }
 
 .ageContainer > input {
