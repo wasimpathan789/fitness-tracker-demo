@@ -405,7 +405,7 @@ input::placeholder {
 }
 
 .ageContainer > input {
-  width: 173px;
+  width: 80% !important;
   height: 50px;
   border: none;
   background: #ffffff;
