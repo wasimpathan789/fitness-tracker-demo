@@ -1,0 +1,491 @@
+.container {
+  border: 1px solid green;
+}
+
+.fitnessWrapper {
+  padding: 20px;
+  width: 428px;
+}
+
+.backContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.arrow {
+  border-radius: 50%;
+  height: 60px;
+  width: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.05);
+}
+
+.arrow > img {
+  width: 20px;
+  height: 20px;
+}
+
+.tracker {
+  margin-bottom: 30px;
+  /* background-color: red; */
+  width: 100%;
+}
+
+.trackerText {
+  display: flex;
+  justify-content: flex-start;
+  text-align: start;
+}
+
+.trackerText > h1 {
+  font-family: "Metropolis";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 100%;
+  text-transform: capitalize;
+
+  color: #2f2f2f;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* fitness tracker  */
+.devicesContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  /* background-color: red; */
+}
+
+.device {
+  background: #ff6020;
+  border-radius: 30px;
+  width: fit-content;
+  /* padding: 0px 30px; */
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 30px;
+}
+
+.device > h1 {
+  color: #ffffff;
+  font-size: 20;
+  font-weight: 700;
+  font-family: "Metropolis";
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  color: yellow;
+
+  font-family: "Metropolis";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 100%;
+  text-align: center;
+  text-transform: capitalize;
+
+  color: #ffffff;
+}
+
+.statistic {
+  background: #f2f2f2;
+  border-radius: 30px;
+  width: 151px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.statistic > h1 {
+  align-items: center;
+  color: #000000;
+  font-family: "Metropolis";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  text-transform: capitalize;
+  opacity: 0.3;
+}
+
+/* Watch container  */
+.watchContainer {
+  position: relative;
+  margin-top: 60px;
+}
+
+.pinkContainer {
+  position: absolute;
+  top: -15px;
+  z-index: -9;
+  position: absolute;
+  width: 418px;
+  height: 229px;
+  left: 6px;
+
+  background: #ffbfa6;
+  border-radius: 40px;
+}
+
+.lightPinkContainer {
+  position: absolute;
+  top: -30px;
+  z-index: -10;
+  position: absolute;
+  width: 391px;
+  height: 229px;
+  left: 18px;
+  background: #ffe3d8;
+  border-radius: 40px;
+}
+
+.black {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: #2f2f2f;
+  height: 286px;
+  background: #2f2f2f;
+  border-radius: 40px;
+  padding: 15px;
+  position: relative;
+  z-index: 8898;
+  width: 418px;
+  left: -10px;
+}
+
+.blackContainerTop {
+  padding-top: 10px;
+}
+
+.blackContainerTop > h5 {
+  color: #ff8250;
+  font-family: "Metropolis";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  text-transform: capitalize;
+  text-align: start;
+}
+
+.blackContainerTop > h3 {
+  font-family: "Metropolis";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  text-transform: capitalize;
+  color: #ffffff;
+}
+
+.blackContainerCenter {
+  padding: 10px;
+}
+
+.blackContainerCenter > p {
+  font-family: "Metropolis";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 100%;
+  color: #ffffff;
+  opacity: 0.5;
+}
+
+.scan {
+  width: 127px;
+  height: 49px;
+
+  background: #ff6020;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.scan > p {
+  font-family: "Metropolis";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 100%;
+  text-align: center;
+  text-transform: capitalize;
+
+  color: #ffffff;
+}
+
+.watchImage {
+  position: absolute;
+  /* Screenshot 2024-02-05 200304-Photoroom 1 */
+
+  position: absolute;
+  width: 322px;
+  height: 322px;
+  left: 139px;
+  top: -19px;
+  background-size: cover;
+}
+
+.watchImage > img {
+  width: 305px;
+  height: 352px;
+  background-size: cover;
+}
+
+.blur {
+  position: absolute;
+  width: 330px;
+  height: 75px;
+  left: 29px;
+  top: 266px;
+  background: #2f2f2f;
+  filter: blur(25px);
+  z-index: -3;
+}
+
+/* calories  */
+.trackerContainer {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.trackerLeft {
+  background: #2f2f2f;
+  border-radius: 45px;
+  width: 178px;
+  height: 178px;
+}
+
+.trackerRight {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.stepContainer {
+  width: 178px;
+  height: 178px;
+  background: #2f2f2f;
+  border-radius: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.steps {
+  position: absolute;
+}
+
+.steps > h3 {
+  font-family: "Metropolis";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 100%;
+  text-align: center;
+  text-transform: capitalize;
+  color: #ffffff;
+}
+.steps > p {
+  font-family: "Metropolis";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 100%;
+  text-align: center;
+  text-transform: capitalize;
+  color: #ff8250;
+  margin-top: 5px;
+}
+.halfImage {
+  position: absolute;
+  left: 70px;
+  top: 2px;
+}
+
+.calorires {
+  /* width: 193px; */
+  width: 230px;
+  height: 81px;
+  left: 213px;
+  top: 656px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: #fff4ef;
+  border-radius: 41px;
+  gap: 5px;
+}
+
+.calorires > p {
+  font-family: "Metropolis";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 100%;
+  text-align: center;
+  text-transform: capitalize;
+  color: #ff8250;
+}
+
+.calorires > h5 {
+  font-family: "Metropolis";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 100%;
+  text-align: center;
+  text-transform: capitalize;
+  color: #2f2f2f;
+}
+
+/* form  */
+
+.detailContainer {
+  width: 428px;
+  background: #ff6020;
+  border-radius: 50px 50px 0px 0px;
+  margin-top: 30px;
+  padding: 40px 20px;
+}
+
+.detailContainer > h1 {
+  font-family: "Metropolis";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 100%;
+  text-transform: capitalize;
+  color: #ffffff;
+  text-align: start;
+}
+
+.detailContainer > form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.nameInput {
+  /* width: 388px; */
+  height: 50px;
+  /* width: var(-30px); */
+  border: none;
+  background: #ffffff;
+  border-radius: 30px;
+  padding: 0px 30px;
+  color: #2f2f2f;
+  font-family: "Metropolis";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 14px;
+  /* opacity: 0.3; */
+  text-transform: capitalize;
+}
+
+input::placeholder {
+  font-family: "Metropolis";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 14px;
+  line-height: 100%;
+
+  text-transform: capitalize;
+  color: #2f2f2f;
+
+  opacity: 0.3;
+}
+
+.ageContainer {
+  display: flex;
+  gap: 10px;
+  /* flex-direction: column; */
+}
+
+.ageContainer > input {
+  width: 173px;
+  height: 50px;
+  border: none;
+  background: #ffffff;
+  border-radius: 30px;
+  padding: 0px 30px;
+}
+
+/* dropdown */
+.dropdown {
+}
+
+.dropdownMenu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* width: 388px; */
+  height: 50px;
+  padding: 0px 20px;
+  background: #ffffff;
+  border-radius: 30px;
+  cursor: pointer;
+
+  color: #2f2f2f;
+}
+
+.dropdownMenu > h5 {
+  font-family: "Metropolis";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 14px;
+  line-height: 100%;
+}
+
+.dropdownItems {
+  background-color: #ffffff;
+  margin-top: 10px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 8px 20px;
+}
+
+.dropdownItems > li {
+}
+
+.dropdownItems > li:hover {
+  background-color: #f2f2f2;
+  width: 90%;
+}
+
+.saveBtn {
+  width: 428px;
+  height: 60px;
+
+  background: #2f2f2f;
+  border-radius: 30px;
+  color: #ffffff;
+
+  font-family: "Metropolis";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  text-align: center;
+  text-transform: capitalize;
+  margin-top: 10px;
+}

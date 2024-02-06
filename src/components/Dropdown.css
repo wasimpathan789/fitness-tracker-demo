@@ -1,0 +1,11 @@
+.menu {
+  width: 300px;
+  border: 1px solid green;
+  height: 40px;
+}
+
+.items {
+  background-color: pink;
+  height: 199px;
+  width: 300px;
+}
